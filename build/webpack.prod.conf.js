@@ -4,9 +4,9 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 const path = require('path')
 
-config.output.filename = 'vue-hotel-datepicker.min.js'
+config.output.filename = 'bnb-datepicker.min.js'
 config.output.libraryTarget = 'umd'
-config.output.library = 'HotelDatePicker'
+config.output.library = 'BNBDatePicker'
 
 config.entry = path.resolve(__dirname, '../src/components/DatePicker.vue')
 
@@ -26,7 +26,7 @@ config.plugins = (config.plugins || []).concat([
   }),
 
   new ExtractTextPlugin({
-    filename: 'vue-hotel-datepicker.min.css',
+    filename: 'bnb-datepicker.min.css',
   }),
 
   new UglifyJSPlugin({

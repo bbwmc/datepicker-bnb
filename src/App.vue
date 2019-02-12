@@ -1,12 +1,10 @@
 <template>
-  <div id="app" style="text-align: left; padding: 10vw">
+  <div id="app" style="text-align: left">
     <div>
 
       <div class="box">
         <h3>Allow check-in and check-out on the same day</h3>
-        <DatePicker
-          :minNights="0"
-        />
+        <DatePicker />
       </div>
 
       <div class="box">

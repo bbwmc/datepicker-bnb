@@ -918,6 +918,7 @@ $extra-small-screen: "(max-width: 23em)";
     border: 0;
     height: 40px;
     padding-top: 14px;
+    font-family: PFDinTextCondPro-Regular, sans-serif;
 
     @include focusStyle();
 
@@ -1104,6 +1105,7 @@ $extra-small-screen: "(max-width: 23em)";
     padding-bottom: 17px;
     pointer-events: none;
     text-align: center;
+    font-family: PFDinTextCondPro-Regular, sans-serif;
 
     @include device($up-to-tablet) {
       margin-top: -25px;
@@ -1139,6 +1141,7 @@ $extra-small-screen: "(max-width: 23em)";
     font-weight: 400;
     color: $medium-gray;
     text-align: center;
+    font-family: PFDinTextCondPro-Regular, sans-serif;
   }
 
   &__close-button {

@@ -681,33 +681,6 @@ $extra-small-screen: "(max-width: 23em)";
   }
 }
 
-.datepicker__input:first-child::before,
-.datepicker__input:last-child::before {
-  top: -30px;
-  position: absolute;
-  color: white;
-  word-spacing: 2px;
-  font-family: PFDinTextCondPro-Medium, sans-serif;
-  font-size: 14px;
-}
-
-.datepicker__input:first-child::before {
-  content: "CHECK IN";
-  // left: 20px;
-  margin-left: -15px;
-
-  @include device($phone) {
-    margin-left: -1px;
-    left: 75px;
-  }
-}
-
-.datepicker__input:last-child::before {
-  content: "CHECK OUT";
-  right: 10px;
-  margin-right: 5px;
-}
-
 /* =============================================================
      * BASE STYLES
      * ============================================================*/
@@ -752,11 +725,12 @@ $extra-small-screen: "(max-width: 23em)";
     border-bottom: 0.5px solid $primary-color !important;
     border-radius: 0;
   }
-  &__input {
-    font-family: PFDinTextCondPro-Regular, sans-serif;
-    font-size: 16px !important;
-    // border-radius: 4pt;
-  }
+  // &__input {
+  //   font-family: PFDinTextCondPro-Regular, sans-serif;
+  //   font-size: 18px !important;
+
+  //   // border-radius: 4pt;
+  // }
 
   button.next--mobile {
     background: none;
@@ -865,13 +839,14 @@ $extra-small-screen: "(max-width: 23em)";
   &__input {
     color: $primary-text-color;
     padding-top: 0;
-    font-size: $font-small;
+    font-size: 18px;
     float: left;
     height: 48px;
     line-height: 3.1;
     text-align: left;
-    text-indent: 62px;
+    text-indent: 55px;
     width: calc(42% + 4px);
+    font-family: PFDinTextCondPro-Regular, sans-serif;
 
     @include device($phone) {
       text-indent: 75px;

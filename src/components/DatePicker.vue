@@ -919,6 +919,7 @@ $extra-small-screen: "(max-width: 23em)";
     height: 40px;
     padding-top: 14px;
     font-family: PFDinTextCondPro-Regular, sans-serif;
+    font-size: 16px;
 
     @include focusStyle();
 

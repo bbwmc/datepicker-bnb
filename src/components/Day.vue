@@ -126,7 +126,6 @@ export default {
       //   return "first-day-line";
       // }
 
-      return "asd";
     },
 
     dayClass() {
@@ -361,5 +360,9 @@ export default {
 }
 .first-day-line .datepicker__month-day {
   border-radius: 10px 0 0 10px;
+}
+.datepicker__tooltip {
+  font-family: PFDinTextCondPro-Regular,sans-serif;
+  font-size: 14px;
 }
 </style>

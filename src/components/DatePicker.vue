@@ -803,7 +803,7 @@ $extra-small-screen: "(max-width: 23em)";
     outline: none;
     // padding: 4px 30px 2px;
     width: 100%;
-    word-spacing: 5px;
+    // word-spacing: 5px;
     border: 0;
     font-family: PFDinTextCondPro-Regular;
 

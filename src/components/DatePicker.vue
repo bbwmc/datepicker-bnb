@@ -845,22 +845,23 @@ $extra-small-screen: "(max-width: 23em)";
     line-height: 3.1;
     text-align: left;
     text-indent: 55px;
-    width: calc(42% + 4px);
+    width: calc(40% + 4px);
     font-family: PFDinTextCondPro-Regular, sans-serif;
 
     @include device($phone) {
       text-indent: 75px;
+      text-indent: 10px;
       text-align: center;
     }
 
     &:first-child {
       background: transparent url("./plane_icon.svg") no-repeat 100%/50px;
-      width: calc(58% - 4px);
+      width: calc(60% - 4px);
       text-indent: 15px;
 
       @include device($phone) {
-        width: calc(55% - 4px);
-        text-indent: -100px;
+        width: calc(60% - 4px);
+        text-indent: -60px;
       }
     }
 

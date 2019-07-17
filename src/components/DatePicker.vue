@@ -844,8 +844,8 @@ $extra-small-screen: "(max-width: 23em)";
     height: 48px;
     line-height: 3.1;
     text-align: left;
-    text-indent: 55px;
-    width: calc(40% + 4px);
+    text-indent: 40px;
+    width: 50%;
     font-family: PFDinTextCondPro-Regular, sans-serif;
 
     @include device($phone) {
@@ -854,16 +854,16 @@ $extra-small-screen: "(max-width: 23em)";
       text-align: center;
     }
 
-    &:first-child {
-      background: transparent url("./plane_icon.svg") no-repeat 100%/50px;
-      width: calc(60% - 4px);
-      text-indent: 15px;
+    // &:first-child {
+    //   background: transparent url("./plane_icon.svg") no-repeat 100%/50px;
+    //   width: calc(60% - 4px);
+    //   text-indent: 15px;
 
-      @include device($phone) {
-        width: calc(60% - 4px);
-        text-indent: -60px;
-      }
-    }
+    //   @include device($phone) {
+    //     width: calc(60% - 4px);
+    //     text-indent: -60px;
+    //   }
+    // }
 
     &--is-active {
       color: $primary-color;

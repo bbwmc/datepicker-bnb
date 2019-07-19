@@ -599,7 +599,6 @@ export default {
         this.createMonth(this.getNextMonth(new Date(this.startDate)));
       }
       this.parseDisabledDates();
-    },
   },
 
   mounted() {
